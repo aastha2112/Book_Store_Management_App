@@ -30,9 +30,9 @@ export default function Login() {
       });
   }
   return (
-    <div>
+    <div className="loginFormDiv">
       <h3>Login Page</h3>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="loginForm">
         {error && <p>Invalid Credentials!</p>}
         <label htmlFor="username">Username</label>
         <input

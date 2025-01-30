@@ -71,19 +71,24 @@
   margin: 2rem;
 }
 
-.addFormDiv {
+.addFormDiv,
+.loginFormDiv {
   padding: 1rem 5rem;
   margin: 1rem auto;
   width: 30%;
 }
 
-.addForm {
+.addForm,
+.loginForm {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
   border-radius: 2rem;
   background-color: aliceblue;
+}
+.loginForm {
+  text-align: left;
 }
 
 input {
